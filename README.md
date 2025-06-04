@@ -46,5 +46,15 @@
 
 ```bash
 git clone https://github.com/nickolaykrasilov/resume__builder
+```
+```bash
 cd resume-builder
+```
 
+```bash
+npm install
+```
+
+```bash
+npm start
+```
