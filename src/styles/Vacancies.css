@@ -1,0 +1,79 @@
+.vacancies-tracker {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.filters {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.filters select, .filters input {
+  padding: 8px 12px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+.vacancies-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.vacancy-card {
+  background: white;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.vacancy-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.last-update {
+  color: #666;
+  font-size: 0.9em;
+}
+
+.vacancy-link {
+  display: inline-block;
+  margin-bottom: 10px;
+  color: #4361ee;
+  text-decoration: none;
+}
+
+.vacancy-link:hover {
+  text-decoration: underline;
+}
+
+.vacancy-status select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.missing-skills {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #eee;
+}
+
+.missing-skills ul {
+  padding-left: 20px;
+  margin-top: 5px;
+}
+
+
+[data-theme="dark"] .vacancy-card {
+  background: #1e1e1e;
+  border: 1px solid #333;
+}
+
+[data-theme="dark"] .vacancy-link {
+  color: #4895ef;
+}

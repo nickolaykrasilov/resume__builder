@@ -1,0 +1,23 @@
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  .resume-preview,
+  .resume-preview * {
+    visibility: visible;
+  }
+  .resume-preview {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    box-shadow: none;
+    background: white !important;
+    color: black !important;
+  }
+  .section-title {
+    color: #4361ee !important;
+  }
+}
